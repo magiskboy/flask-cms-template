@@ -1,0 +1,126 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flask CMS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!-- Add your style here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+    :root {
+      --charcoal: #264653ff;
+      --persian-green: #2a9d8fff;
+      --saffron: #e9c46aff;
+      --sandy-brown: #f4a261ff;
+      --burnt-sienna: #e76f51ff;
+    }
+
+    .bg-charcoal {
+      background-color: var(--charcoal);
+    }
+
+    * {
+      font-family: "Roboto", san-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-charcoal fixed-top">   <!-- Navbar -->
+    <div id="navbar" class="container bg-charcoal text-white w-lg-75 w-md-75 p-2 fs-5">
+      <div class="nav-brand fs-3">Flask CMS</div> 
+      <div class="navbar-collapse ms-4" id="navbar-content">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a href="/" class="nav-link text-white">Home</a></li>
+          <li class="nav-item"><a href="/" class="nav-link text-white">Category</a></li>
+          <li class="nav-item"><a href="/" class="nav-link text-white">About</a></li>
+        </ul> 
+        <div id="left-navbar" class="d-flex pe-1">
+          <input type="text" placeholder="Search..." class="border border-secondary rounded py-1 px-2 mx-3 bg-transparent" />
+          <a href="/" class="text-white text-decoration-none d-flex align-items-center">Sign In</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body -->
+  <main class="container w-lg-75 w-md-75" style="margin-top: 80px;">
+    <div class="row my-5" id="above-the-fold">
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-4">  <!-- List articles -->
+        <div class="d-flex flex-row border-bottom py-3 my-2">
+          <img class="float-start me-3" width="320" style="object-fit: contain; object-position: top left" src="https://source.unsplash.com/GKXk4dxioCY" alt="Article title" />
+          <div>
+            <a href="#" class="text-decoration-none"><h4>Async IO in Python: A Complete Walkthrough</h3></a>
+            <div class="d-flex align-items-center gap-1 mb-2">
+              <span datetime="01-01-2002" class="me-2 text-secondary">01-01-2002</span>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> nature</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> life</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> wild</a>
+            </div>
+            <p class="text-secondary text-align-justify">Integer venenatis neque sit amet dignissim ultrices. Nam quis sapien vitae orci dignissim mollis. Fusce a interdum nulla. In faucibus ante in mi condimentum, at egestas neque aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempus, justo a scelerisque fringilla, elit tellus vestibulum felis, quis dictum arcu mauris at enim.</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row border-bottom py-3 my-2">
+          <img class="float-start me-3" width="320" style="object-fit: contain; object-position: top left" src="https://source.unsplash.com/msN5h_09Op4" alt="Article title" />
+          <div>
+            <a href="#" class="text-decoration-none"><h4>Async IO in Python: A Complete Walkthrough</h3></a>
+            <div class="d-flex align-items-center gap-1 mb-2">
+              <span datetime="01-01-2002" class="me-2 text-secondary">01-01-2002</span>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> nature</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> life</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> wild</a>
+            </div>
+            <p class="text-secondary text-align-justify">Integer venenatis neque sit amet dignissim ultrices. Nam quis sapien vitae orci dignissim mollis. Fusce a interdum nulla. In faucibus ante in mi condimentum, at egestas neque aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempus, justo a scelerisque fringilla, elit tellus vestibulum felis, quis dictum arcu mauris at enim.</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row border-bottom py-3 my-2">
+          <img class="float-start me-3" width="320" style="object-fit: contain; object-position: top left" src="https://source.unsplash.com/-lk96OJC_qc" alt="Article title" />
+          <div>
+            <a href="#" class="text-decoration-none"><h4>Async IO in Python: A Complete Walkthrough</h3></a>
+            <div class="d-flex align-items-center gap-1 mb-2">
+              <span datetime="01-01-2002" class="me-2 text-secondary">01-01-2002</span>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> nature</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> life</a>
+              <a class="badge rounded-spill text-bg-secondary text-decoration-none me-1"><i class="bi bi-tags-fill"></i> wild</a>
+            </div>
+            <p class="text-secondary text-align-justify">Integer venenatis neque sit amet dignissim ultrices. Nam quis sapien vitae orci dignissim mollis. Fusce a interdum nulla. In faucibus ante in mi condimentum, at egestas neque aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras tempus, justo a scelerisque fringilla, elit tellus vestibulum felis, quis dictum arcu mauris at enim.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pt-4">  <!-- Side menu -->
+      </div>
+    </div>
+
+  </main>
+  <!-- End body -->
+
+  <footer class="text-center">
+    <p>© 2023–2023 <a href="#">Flask CMS</a></p>
+    <p>Happy with Your Life</p>
+  </footer>
+
+  <!-- External scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="/vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- End external scripts -->
+</body>
+</html>
